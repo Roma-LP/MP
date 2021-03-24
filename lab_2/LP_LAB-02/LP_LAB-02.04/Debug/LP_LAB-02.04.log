@@ -1,42 +1,21 @@
-﻿Сборка начата 24.03.2021 0:56:16.
+﻿Сборка начата 24.03.2021 14:04:52.
      1>Проект "C:\БГТУ\МП\lab_2\LP_LAB-02\LP_LAB-02.04\LP_LAB-02.04.vcxproj" в узле 2 (целевые объекты Build).
      1>InitializeBuildStatus:
          Обращение к "Debug\LP_LAB-02.04.tlog\unsuccessfulbuild".
        ClCompile:
-         Для всех выходных данных обновления не требуется.
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Combi.cpp Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Combi.cpp
          Combi.cpp
-         Main.cpp
-         Создание кода...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\БГТУ\МП\lab_2\LP_LAB-02\Debug\LP_LAB-02.04.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\БГТУ\МП\lab_2\LP_LAB-02\Debug\LP_LAB-02.04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\БГТУ\МП\lab_2\LP_LAB-02\Debug\LP_LAB-02.04.lib" /MACHINE:X86 Debug\Combi.obj
          Debug\Main.obj
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall combi::xcombination::xcombination(short,short)" (??0xcombination@combi@@QAE@FF@Z) в функции "public: __thiscall combi::accomodation::accomodation(short,short)" (??0accomodation@combi@@QAE@FF@Z)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall combi::xcombination::reset(void)" (?reset@xcombination@combi@@QAEXXZ) в функции "public: void __thiscall combi::accomodation::reset(void)" (?reset@accomodation@combi@@QAEXXZ)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: short __thiscall combi::xcombination::getfirst(void)" (?getfirst@xcombination@combi@@QAEFXZ) в функции "public: void __thiscall combi::accomodation::reset(void)" (?reset@accomodation@combi@@QAEXXZ)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: short __thiscall combi::xcombination::getnext(void)" (?getnext@xcombination@combi@@QAEFXZ) в функции "public: short __thiscall combi::accomodation::getnext(void)" (?getnext@accomodation@combi@@QAEFXZ)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall combi::permutation::permutation(short)" (??0permutation@combi@@QAE@F@Z) в функции "public: __thiscall combi::accomodation::accomodation(short,short)" (??0accomodation@combi@@QAE@FF@Z)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall combi::permutation::reset(void)" (?reset@permutation@combi@@QAEXXZ) в функции "public: short __thiscall combi::accomodation::getnext(void)" (?getnext@accomodation@combi@@QAEFXZ)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __int64 __thiscall combi::permutation::getnext(void)" (?getnext@permutation@combi@@QAE_JXZ) в функции "public: short __thiscall combi::accomodation::getnext(void)" (?getnext@accomodation@combi@@QAEFXZ)
-     1>Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: short __thiscall combi::permutation::ntx(short)" (?ntx@permutation@combi@@QAEFF@Z) в функции "public: short __thiscall combi::accomodation::getfirst(void)" (?getfirst@accomodation@combi@@QAEFXZ)
-     1>C:\БГТУ\МП\lab_2\LP_LAB-02\Debug\LP_LAB-02.04.exe : fatal error LNK1120: неразрешенных внешних элементов: 8
-     1>Сборка проекта "C:\БГТУ\МП\lab_2\LP_LAB-02\LP_LAB-02.04\LP_LAB-02.04.vcxproj" завершена (целевые объекты Build) с ошибкой.
+         LP_LAB-02.04.vcxproj -> C:\БГТУ\МП\lab_2\LP_LAB-02\Debug\LP_LAB-02.04.exe
+       FinalizeBuildStatus:
+         Файл "Debug\LP_LAB-02.04.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_LAB-02.04.tlog\LP_LAB-02.04.lastbuildstate".
+     1>Сборка проекта "C:\БГТУ\МП\lab_2\LP_LAB-02\LP_LAB-02.04\LP_LAB-02.04.vcxproj" завершена (целевые объекты Build).
 
-Ошибка сборки.
-
-       "C:\БГТУ\МП\lab_2\LP_LAB-02\LP_LAB-02.04\LP_LAB-02.04.vcxproj" (целевой объект Build ) (1) ->
-       (Link конечный объект) -> 
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall combi::xcombination::xcombination(short,short)" (??0xcombination@combi@@QAE@FF@Z) в функции "public: __thiscall combi::accomodation::accomodation(short,short)" (??0accomodation@combi@@QAE@FF@Z)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall combi::xcombination::reset(void)" (?reset@xcombination@combi@@QAEXXZ) в функции "public: void __thiscall combi::accomodation::reset(void)" (?reset@accomodation@combi@@QAEXXZ)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: short __thiscall combi::xcombination::getfirst(void)" (?getfirst@xcombination@combi@@QAEFXZ) в функции "public: void __thiscall combi::accomodation::reset(void)" (?reset@accomodation@combi@@QAEXXZ)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: short __thiscall combi::xcombination::getnext(void)" (?getnext@xcombination@combi@@QAEFXZ) в функции "public: short __thiscall combi::accomodation::getnext(void)" (?getnext@accomodation@combi@@QAEFXZ)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall combi::permutation::permutation(short)" (??0permutation@combi@@QAE@F@Z) в функции "public: __thiscall combi::accomodation::accomodation(short,short)" (??0accomodation@combi@@QAE@FF@Z)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall combi::permutation::reset(void)" (?reset@permutation@combi@@QAEXXZ) в функции "public: short __thiscall combi::accomodation::getnext(void)" (?getnext@accomodation@combi@@QAEFXZ)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __int64 __thiscall combi::permutation::getnext(void)" (?getnext@permutation@combi@@QAE_JXZ) в функции "public: short __thiscall combi::accomodation::getnext(void)" (?getnext@accomodation@combi@@QAEFXZ)
-         Combi.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: short __thiscall combi::permutation::ntx(short)" (?ntx@permutation@combi@@QAEFF@Z) в функции "public: short __thiscall combi::accomodation::getfirst(void)" (?getfirst@accomodation@combi@@QAEFXZ)
-         C:\БГТУ\МП\lab_2\LP_LAB-02\Debug\LP_LAB-02.04.exe : fatal error LNK1120: неразрешенных внешних элементов: 8
-
+Сборка успешно завершена.
     Предупреждений: 0
-    Ошибок: 9
+    Ошибок: 0
 
-Прошло времени 00:00:02.24
+Прошло времени 00:00:01.42

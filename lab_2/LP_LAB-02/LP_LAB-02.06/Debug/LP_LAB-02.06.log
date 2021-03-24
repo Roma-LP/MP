@@ -1,11 +1,9 @@
-﻿Сборка начата 24.03.2021 1:16:11.
+﻿Сборка начата 24.03.2021 14:12:00.
      1>Проект "C:\БГТУ\МП\lab_2\LP_LAB-02\LP_LAB-02.06\LP_LAB-02.06.vcxproj" в узле 2 (целевые объекты Build).
-     1>PrepareForBuild:
-         Создание каталога "Debug\LP_LAB-02.06.tlog\".
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          Создание "Debug\LP_LAB-02.06.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Combi.cpp Knapsack.cpp Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Combi.cpp Knapsack.cpp Main.cpp
          Combi.cpp
      1>c:\бгту\мп\lab_2\lp_lab-02\lp_lab-02.06\combi.cpp(42): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
          Knapsack.cpp
@@ -30,4 +28,4 @@
     Предупреждений: 1
     Ошибок: 0
 
-Прошло времени 00:00:01.85
+Прошло времени 00:00:01.74

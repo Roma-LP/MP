@@ -3,15 +3,30 @@
 #include <iostream>
 #include "Combi.h"
 #include "Knapsack.h"
-#define NN 4
+#include "Auxil.h"
+#include <ctime>
+#include <iomanip>
+
+#define NN 18
 //int _tmain(int argc, _TCHAR* argv[])
 int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "rus");
-	int V = 100,                // вместимость рюкзака              
-		v[] = { 25, 30, 60, 20 },     // размер предмета каждого типа  
-		c[] = { 25, 10, 20, 30 };     // стоимость предмета каждого типа 
-	short m[NN];                // количество предметов каждого типа  {0,1}   
+	int V = 300,                // вместимость рюкзака              
+		//v[] = { 25, 30, 60, 20 },     // размер предмета каждого типа  
+		//c[] = { 25, 10, 20, 30 };     // стоимость предмета каждого типа 
+		v[NN],     // размер предмета каждого типа  
+		c[NN];     // стоимость предмета каждого типа 
+	short m[NN];                // количество предметов каждого типа  {0,1}  
+
+	auxil::start();                // старт генерации
+	for (int i = 0; i < NN; i++)
+	{
+		v[i] = auxil::iget(10, 300); // случайное число от и до
+		c[i] = auxil::iget(5, 55); // случайное число от и до
+		//std::cout << "c["<<i<<"]= "<<c[i] <<" ";
+		//std::cout << "v["<<i<<"]= "<<v[i] <<" ";
+	}
 
 	int maxcc = knapsack_s(
 
@@ -26,9 +41,9 @@ int main(int argc, char* argv[])
 	std::cout << std::endl << "- количество предметов : " << NN;
 	std::cout << std::endl << "- вместимость рюкзака  : " << V;
 	std::cout << std::endl << "- размеры предметов    : ";
-	for (int i = 0; i < NN; i++) std::cout << v[i] << " ";
+	for (int i = 0; i < NN; i++) std::cout << std::setw(3)<<v[i] << " ";
 	std::cout << std::endl << "- стоимости предметов  : ";
-	for (int i = 0; i < NN; i++) std::cout << v[i] * c[i] << " ";
+	for (int i = 0; i < NN; i++) std::cout << std::setw(3)<<c[i] << " ";
 	std::cout << std::endl << "- оптимальная стоимость рюкзака: " << maxcc;
 	std::cout << std::endl << "- вес рюкзака: ";
 	int s = 0; for (int i = 0; i < NN; i++) s += m[i] * v[i];
