@@ -6,7 +6,7 @@
 int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "rus");
-	char  AA[][2] = { "A", "B", "C", "D" };
+	char  AA[][2] = { "A", "B", "C", "D"}; //16=2^4 => x=2^|множество|
 	std::cout << std::endl << " - Генератор множества всех подмножеств -";
 	std::cout << std::endl << "Исходное множество: ";
 	std::cout << "{ ";
